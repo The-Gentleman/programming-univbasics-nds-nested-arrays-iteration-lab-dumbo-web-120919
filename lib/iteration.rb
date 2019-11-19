@@ -36,6 +36,7 @@ counter = 0
    total += num1 + num2
    counter += 1 
    end
+  
   total
  end
 end 
