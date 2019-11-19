@@ -27,18 +27,17 @@ end
 def total_even_pairs(src)
 total = 0 
 counter = 0 
- p num1 = src[counter][0]
- p num2 = src[counter][1]
-#   while counter < src.count do 
-#   inner_array = src[counter]
-#   num1 = src[counter][0]
-#   num2 = src[counter][1]
-#   if num1 % 2 === 0 && num2 % 2 === 0 
-#   total += num1 + num2
-#   counter += 1 
+
+  while counter < src.count do 
+  inner_array = src[counter]
+  num1 = src[counter][0]
+  num2 = src[counter][1]
+  if num1 % 2 === 0 && num2 % 2 === 0 
+   total += num1 + num2
+   counter += 1 
   
-#   end
-# total
-# end
+  end
+ total
+end
 end 
 
